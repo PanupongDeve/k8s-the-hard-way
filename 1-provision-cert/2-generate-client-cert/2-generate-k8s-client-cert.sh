@@ -1,11 +1,11 @@
 # WORKER0_HOST=<Public hostname of your first worker node cloud server>
-WORKER0_HOST=a56bd118ff1c.mylabserver.com
+WORKER0_HOST=c76405b1111c.mylabserver.com
 # WORKER0_IP=<Private IP of your first worker node cloud server>
-WORKER0_IP=172.31.26.49
+WORKER0_IP=172.31.23.25
 # WORKER1_HOST=<Public hostname of your second worker node cloud server>
-WORKER1_HOST=3ab18b3b921c.mylabserver.com
+WORKER1_HOST=a6281426161c.mylabserver.com
 # WORKER1_IP=<Private IP of your second worker node cloud server>
-WORKER1_IP=13.212.150.251
+WORKER1_IP=172.31.30.216
 
 {
 cat > ${WORKER0_HOST}-csr.json << EOF
