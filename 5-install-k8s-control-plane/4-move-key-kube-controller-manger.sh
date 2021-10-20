@@ -1,0 +1,1 @@
+sudo cp kube-controller-manager.kubeconfig /var/lib/kubernetes/

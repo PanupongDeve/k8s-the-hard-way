@@ -4,12 +4,12 @@ kind: EncryptionConfig
 apiVersion: v1
 resources:
   - resources:
-    - secrets
+      - secrets
     providers:
       - aescbc:
-        keys:
-          - name: key1
-            secret: ${ENCRYPTION_KEY}
+          keys:
+            - name: key1
+              secret: ${ENCRYPTION_KEY}
       - identity: {}
 EOF
 

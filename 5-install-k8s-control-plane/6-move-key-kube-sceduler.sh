@@ -1,0 +1,1 @@
+sudo cp kube-scheduler.kubeconfig /var/lib/kubernetes/
