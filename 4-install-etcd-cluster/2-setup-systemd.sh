@@ -1,6 +1,6 @@
 # ETCD_NAME=<cloud server hostname>
-ETCD_NAME=<cloud server hostname>
-INTERNAL_IP=<private ip>
+ETCD_NAME=my-etcd
+INTERNAL_IP=172.31.31.44
 # INITIAL_CLUSTER=<controller 1 hostname>=https://<controller 1 private ip>:2380,<controller 2hostname>=https://<controller 2 private ip>:2380
 INITIAL_CLUSTER=a56bd118ff1c.mylabserver.com=https://172.31.26.49:2380,3ab18b3b921c.mylabserver.com=https://172.31.31.44:2380
 
